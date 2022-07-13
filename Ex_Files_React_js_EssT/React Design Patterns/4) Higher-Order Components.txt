@@ -3,4 +3,15 @@ What are higher-order compnents
 - We are adding an extra step inside of the component 
 - They are functions that are called to make components 
 - These are sued for sharing complex behavior between multiple components (much like with container components)
-- add extra fiunctionality to existing componets. For example if you have to use an existing component that someone else built. 
+- add extra fiunctionality to existing componets. For example if you have to use an existing component that someone else built. The general pattern can be seen below
+
+import React, {Component} from 'react';
+
+const higherOrderComponent = (DecoratedComponent) => {
+  class HOC extends Component {
+    render() {
+      return <DecoratedComponent />;
+    }
+  }
+  return HOC;
+};
