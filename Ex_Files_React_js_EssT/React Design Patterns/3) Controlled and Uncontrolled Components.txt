@@ -1,0 +1,6 @@
+Uncontrolled components: 
+- Componetns that keep track of their own states and release data only when some event occurs such the submit event for HTML forms 
+
+Controlled Components
+- Components that do not keep track of their own state - all stae is passed in as props (that is, when we use the useState hook with text inputs)
+- we prefer controlled componets due to there easy of testing and reuseability
