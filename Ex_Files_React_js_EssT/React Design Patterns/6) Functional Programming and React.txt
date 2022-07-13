@@ -1,0 +1,13 @@
+What is functional programming 
+- a method of organizaing code in a way that 
+    - minimize mutation and state change
+    - keeps functions indpendent of external data
+    - treats funciotns as first-class citizens 
+
+- applciaiton include: 
+    - controlled components, we can get the componet into any state we want simply by passing props through it
+    - function component
+    - higher-order components 
+    - recrusive components: basically compoents that use recursion in order to achieve a desired effect
+    - partially applied components: subset to create more specfic version 
+    - componetn composition: combined multiple components into a single component 
