@@ -1,0 +1,10 @@
+What are comtainer components:
+
+- Container Components are compoents that take care of loading and managing data for their child Components.
+- splits loading data out from the child compnents 
+- we dont want the componetns to know where the data is comming from or how to manage it. 
+
+Need to craetea a server.js file 
+- type node server.js and npm install to link the server file to the front end 
+- useState and useEffect hooks as the way to link the server to the react framework 
+- nom install axois library 
