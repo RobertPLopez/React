@@ -1,5 +1,8 @@
 Design Patterns
 
+- use the following github repo to look for templates and exmplinations for various design patterns within react: 
+https://github.com/LinkedInLearning/react-design-patterns-2895130
+
 - Design patterns are eeffective solutions to common applciation developmentand of challenges 
 - Are not the Gang of Four design patterms used in Object Orriented Coding (see below for a detailed description of the "gang of four") 
 
