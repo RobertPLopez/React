@@ -1,0 +1,3 @@
+What are custom hooks?
+- special hooks that we define ourselves and that usually combine the functionallity of one or more existing React gooks like "useStae" or "useEffect"
+- share complex behavior between several different componetns. Such as sharing logic ebtween containers 
