@@ -17,6 +17,40 @@ function App () {
     )
 }
 
+const people = [{
+    name: 'Jessica Jones',
+    age: 33,
+    hairColor: 'black',
+    hobbes: ['PI', 'Drinking', 'strong'],
+}, {
+    name: 'John Dow',
+    age: 54,
+    hairColor: 'Brown',
+    hobbes: ['swimming', 'chess', 'video games'],
+}, {
+    name: 'Matt Murdock',
+    age: 27,
+    hairColor: 'red',
+    hobbes: ['fighting', 'swords', 'ninja'],
+}];
+
+const products = [{
+    name: 'tv',
+    price: '$33.33',
+    description: 'flat inch doesnt work',
+    rating: 3.8,
+}, {
+    name: 'laptop',
+    price: '$43.33',
+    description: 'runs fast',
+    rating: 4.0,
+}, {
+    name: 'phone',
+    price: '$1000.00',
+    description: 'to expensive',
+    rating: 1.2,
+}];
+
 export default App;
 
 //can add style compoents into each of the dfferent components.
