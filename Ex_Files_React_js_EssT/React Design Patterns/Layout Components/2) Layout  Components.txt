@@ -1,0 +1,25 @@
+What are layout components 
+
+- Normally when we create a component would actually including the div and styles in the componets itself (see below)
+
+    <div> styles={...}
+        <h1>Component Code...</h1>
+    </div>
+
+- With a layout component pattern we would split out each style into their own components (see below)
+- Seperate the componet itself from where its being displayed in the form
+- The main idea is that our componetns shouldnt know where they're being displayed
+
+    <div styles={...}>
+        {childern}
+    </div>
+
+    <div>
+        <h1>Component Code...</h1>
+    </div>
+
+Split Screens 
+    - See the .js file
+Lists and Items 
+
+Modals 
