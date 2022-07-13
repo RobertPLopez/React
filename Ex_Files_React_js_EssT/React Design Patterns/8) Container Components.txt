@@ -8,3 +8,5 @@ Need to craetea a server.js file
 - type node server.js and npm install to link the server file to the front end 
 - useState and useEffect hooks as the way to link the server to the react framework 
 - nom install axois library 
+
+Dont be afraid to use the get-resource loader funtion 
