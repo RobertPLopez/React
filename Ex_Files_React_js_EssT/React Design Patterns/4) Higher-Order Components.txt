@@ -1,0 +1,6 @@
+What are higher-order compnents 
+- a components that return another componetns instead of JSX
+- We are adding an extra step inside of the component 
+- They are functions that are called to make components 
+- These are sued for sharing complex behavior between multiple components (much like with container components)
+- add extra fiunctionality to existing componets. For example if you have to use an existing component that someone else built. 
